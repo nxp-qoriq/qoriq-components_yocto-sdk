@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="yocto"       fetch="https://git.yoctoproject.org"/>
+  <remote name="oe"          fetch="https://github.com/openembedded"/>
+  <remote name="kraj"        fetch="https://github.com/kraj"/>
+
+  <remote name="community"   fetch="https://github.com/Freescale"/>
+  <remote name="ossystems"   fetch="https://github.com/OSSystems"/>
+
+  <remote name="nxp-qoriq"     fetch="https://github.com/nxp-qoriq"/>
+
+  <project name="meta-arm" remote="yocto" path="sources/meta-arm" revision="8aa8a1f17f5b64bc691544f989f04fc83df98adb" upstream="master"/>
+  <project name="meta-browser" remote="ossystems" path="sources/meta-browser" revision="dc31889c0899971def535dc1c040edf18bc16691" />
+  <project name="meta-clang" remote="kraj" path="sources/meta-clang" revision="66414c17ae60e489bef9a97031323e92c247fbe1" upstream="scarthgap"/>
+  <project name="meta-cloud-services" path="sources/meta-cloud-services" remote="yocto" revision="61d37af7f412aa1ecacdf584faf0fba300f7d58e" upstream="scarthgap"/>
+
+  <project name="meta-freescale" remote="community" path="sources/meta-freescale" revision="41b923e59e048b9b2942ff737a4ddac386954c62" upstream="scarthgap"/>
+  <project name="meta-freescale-distro" remote="community" path="sources/meta-freescale-distro" revision="158cc55b6ee30d09957b380859dba52c0f6af68d" upstream="scarthgap"/>
+
+  <project name="meta-security" remote="yocto" path="sources/meta-security" revision="11ea91192d43d7c2b0b95a93aa63ca7e73e38034" upstream="scarthgap"/>
+  <project name="meta-selinux" path="sources/meta-selinux" remote="yocto" revision="07f3233374f013412d691732adfa2c20167a0ea0" upstream="scarthgap"/>
+  <project name="meta-virtualization" remote="yocto" path="sources/meta-virtualization" revision="1a547c0aa0d75c4143cbb66de6e653d51cdc8bda" upstream="scarthgap"/>
+  <project name="poky" remote="yocto" path="sources/poky" revision="02eacd385eca7aa9cf25aaaa61427aa9c126e0bc" upstream="scarthgap"/>
+  <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="a72010b414ee3d73888ac9cb4e310e8f05e13aea" upstream="scarthgap"/>
+
+  <project name="meta-qoriq" path="sources/meta-qoriq" remote="nxp-qoriq" revision="refs/tags/lf-6.6.23-2.0.0" upstream="scarthgap">
+    <copyfile dest="setup-env" src="tools/setup-env"/>
+  </project>
+
+</manifest>
