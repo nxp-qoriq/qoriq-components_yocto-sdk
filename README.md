@@ -46,6 +46,7 @@ Yocto branch and version
 ========================
 | Branch      | Version          |
 |-------------|------------------|
+| nanbield    | YP 4.3-lf-6.6.3  |
 | mickledore  | YP 4.2–lf-6.1.55 |
 | langdale    | YP 4.1–lf-6.1.1  |
 | kirkstone   | YP 4.0–lf-5.15.71|
