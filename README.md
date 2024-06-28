@@ -23,7 +23,7 @@ To make sure the build host is prepared for Yocto running and build, please foll
 
 Install 'repo' tool
 ===================
-To use this manifest repo, the 'repo' tool must be isntalled first
+To use this manifest repo, the 'repo' tool must be installed first
 ```
 $: mkdir ~/bin
 $: curl http://commondatastorage.googleapis.com/git-repo-downloads/repo  > ~/bin/repo
