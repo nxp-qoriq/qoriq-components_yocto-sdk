@@ -46,7 +46,7 @@ Yocto branch and version
 ========================
 | Branch      | Version          |
 |-------------|------------------|
-| scarthgap   | YP 5.0-lf-6.6.23 |
+| scarthgap   | YP 5.0-lf-6.6.36 |
 | nanbield    | YP 4.3-lf-6.6.3  |
 | mickledore  | YP 4.2–lf-6.1.55 |
 | langdale    | YP 4.1–lf-6.1.1  |
