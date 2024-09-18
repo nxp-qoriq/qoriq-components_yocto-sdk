@@ -1,3 +1,10 @@
+Date: 9/30/2024
+Release: 6.6.36-2.1.0
+- Kernel v6.6.36
+- Management Complex 10.39.0
+- MACSec support for DPAA2 Ethernet
+- Retrieving MAC statistics in one firmware command for DPAA2 MAC
+
 Date: 6/28/2024
 Release: 6.6.23-2.0.0
 - Kernel v6.6.23
