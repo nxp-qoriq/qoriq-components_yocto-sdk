@@ -24,7 +24,7 @@
   <project name="poky" remote="yocto" path="sources/poky" revision="f43f393ef0246b7bee6eed8bcf8271cf2b8cdf40" upstream="scarthgap"/>
   <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="80e01188fa822d87d301ee71973c462d7a865493" upstream="scarthgap"/>
 
-  <project name="meta-qoriq" remote="nxp-qoriq" path="sources/meta-qoriq" revision="refs/tags/lf-6.6.36-2.1.0" upstream="scarthgap">
+  <project name="meta-qoriq" remote="nxp-qoriq" path="sources/meta-qoriq" revision="refs/tags/lf-6.6.36-2.1.0" upstream="scarthgap-6.6.36-2.1.0">
     <copyfile dest="setup-env" src="tools/setup-env"/>
   </project>
 
