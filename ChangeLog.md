@@ -1,3 +1,8 @@
+Date: 12/16/2024
+Release: 6.6.52-2.2.0
+- LS1088ARDB-PB RevC Board Re-design
+- Kernel v6.6.52
+
 Date: 9/30/2024
 Release: 6.6.36-2.1.0
 - Kernel v6.6.36
