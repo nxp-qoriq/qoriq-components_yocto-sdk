@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="yocto"       fetch="https://git.yoctoproject.org"/>
+  <remote name="yp"          fetch="https://git.yoctoproject.org"/>
   <remote name="oe"          fetch="https://github.com/openembedded"/>
   <remote name="kraj"        fetch="https://github.com/kraj"/>
 
@@ -19,7 +19,7 @@
 
   <project name="meta-cloud-services" remote="yp" path="sources/meta-cloud-services" revision="61d37af7f412aa1ecacdf584faf0fba300f7d58e" upstream="scarthgap"/>
   <project name="meta-arm" remote="yp" path="sources/meta-arm" revision="950a4afce46a359def2958bd9ae33fc08ff9bb0d" upstream="scarthgap"/>
-  <project name="meta-selinux"  remote="yp" path="sources/meta-selinux"revision="3aff015697fa056b4af83b1c9ba44eca346a8a37" upstream="scarthgap"/>
+  <project name="meta-selinux" remote="yp" path="sources/meta-selinux" revision="3aff015697fa056b4af83b1c9ba44eca346a8a37" upstream="scarthgap"/>
   <project name="meta-security" remote="yp" path="sources/meta-security" revision="459d837338ca230254baa2994f870bf6eb9d0139" upstream="scarthgap"/>
   <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization" revision="6f3c1d8f90947408a6587be222fec575a1ca5195" upstream="scarthgap"/>
   <project name="poky" remote="yp" path="sources/poky" revision="200d12b6a58ad961d60a7774ca0f7a9d29498724" upstream="scarthgap"/>
