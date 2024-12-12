@@ -4,6 +4,7 @@
   <remote name="yp"          fetch="https://git.yoctoproject.org"/>
   <remote name="oe"          fetch="https://github.com/openembedded"/>
   <remote name="kraj"        fetch="https://github.com/kraj"/>
+  <remote name="linaro"      fetch="https://git.linaro.org/openembedded"/>
 
   <remote name="community"   fetch="https://github.com/Freescale"/>
   <remote name="ossystems"   fetch="https://github.com/OSSystems"/>
